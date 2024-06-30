@@ -1,6 +1,6 @@
-# Paper Plugin Template
+# Folia Plugin Template
 
-本リポジトリは、 Minecraft: Java Editionのサーバプラグイン開発を支援するためのテンプレートリポジトリです。
+本リポジトリは、 Minecraft: Java EditionのFoliaサーバプラグイン開発を支援するためのテンプレートリポジトリです。
 
 ## 使い方
 

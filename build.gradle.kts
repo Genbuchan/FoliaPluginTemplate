@@ -16,7 +16,7 @@ repositories {
 
 dependencies {
     implementation(kotlin("stdlib"))
-    compileOnly("io.papermc.paper:paper-api:1.21-R0.1-SNAPSHOT")
+    compileOnly("dev.folia:folia-api:1.20.6-R0.1-SNAPSHOT")
     testImplementation(kotlin("test"))
 }
 
@@ -25,8 +25,10 @@ tasks.test {
 }
 
 tasks.runServer {
-    minecraftVersion("1.21")
+    minecraftVersion("1.20.6")
 }
+
+runPaper.folia.registerTask()
 
 tasks.compileKotlin {}
 
