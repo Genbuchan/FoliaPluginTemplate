@@ -1,0 +1,7 @@
+name: PaperPluginTemplate
+version: '0.1.0'
+main: studio.genbu.mc.paperplugintemplate.PaperPluginTemplate
+description: Plugin description here.
+author: Author
+website: http://example.com/
+api-version: '1.21'
